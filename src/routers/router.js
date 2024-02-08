@@ -30,7 +30,8 @@ const homeItem = [
   },
   {
     //计算机视觉、建模npg 电子医疗、nature medicine
-    key: "4",
+    key: "/4",
+    path: "/4",
     icon: <UploadOutlined />,
     label: "nav 3",
     element: <About />,

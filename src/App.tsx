@@ -2,6 +2,9 @@
 import './App.css';
 import Router from './routers';
 import { BrowserRouter } from 'react-router-dom';
+import {
+  RecoilRoot
+} from 'recoil';
 function App() {
   return (
    
@@ -19,9 +22,11 @@ function App() {
           Learn React
         </a>
       </header> */
+       <RecoilRoot>
       <BrowserRouter>
         <Router/>
       </BrowserRouter>
+      </RecoilRoot>
   
   );
 }
